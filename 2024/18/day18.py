@@ -16,7 +16,6 @@ target = (70,70)
 
 dirs = [(-1,0), (0,1), (1,0), (0,-1)]
 
-
 for i,j in coords:
     grid[j][i] = "#"
     stack = deque([(0,0)])
